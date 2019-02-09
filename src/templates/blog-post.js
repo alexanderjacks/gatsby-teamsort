@@ -32,7 +32,12 @@ export const BlogPostTemplate = ({
                 <h4>Tags</h4>
                 <ul className="taglist">
                   {tags.map(tag => (
-                    <li key={tag + `tag`} style={{ margin: `2rem`, padding: `2rem`, border: `1px black solid`, borderRadius: `1.2rem` }}>
+                    <li key={tag + `tag`}
+                        style={{  margin: `2rem`,
+                                  padding: `2rem`,
+                                  border: `3px teal solid`,
+                                  borderRadius: `1.2rem` }}
+                    >
                       <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
                     </li>
                   ))}
@@ -65,7 +70,7 @@ const BlogPost = ({ data }) => {
         description={post.frontmatter.description}
         helmet={
           <Helmet
-            titleTemplate="%s | Blog"
+            titleTemplate="%s | Details"
           >
             <title>{`${post.frontmatter.title}`}</title>
             <meta name="description" content={`${post.frontmatter.description}`} />

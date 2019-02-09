@@ -1,5 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { kebabCase } from 'lodash'
+
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
@@ -7,9 +9,29 @@ class TagRoute extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
     const postLinks = posts.map(post => (
-      <li key={post.node.fields.slug}>
-        <Link to={post.node.fields.slug}>
-          <h2 className="is-size-2">{post.node.frontmatter.title}</h2>
+      <li key={post.node.fields.slug}
+          style={{  margin: `1.4rem`,
+                    padding: `1.4rem`,
+                    border: `1.5px grey solid`,
+                    borderRadius: `1.2rem` }}
+      >
+        <Link to={post.node.fields.slug}
+              className="columns"
+        >
+          <h4 className="column is-size-4">{post.node.frontmatter.description}</h4>
+          <h2 className="column is-size-2">{post.node.frontmatter.title}</h2>
+          <div className="column is-size-6">
+            {post.node.frontmatter.tags.map(tag => (
+              <span key={tag + `tag`}
+                  style={{  margin: `0.8rem`,
+                            padding: `0.8rem`,
+                            border: `1px teal solid`,
+                            borderRadius: `0.8rem` }}
+              >
+                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+              </span>
+            ))}
+          </div>
         </Link>
       </li>
     ))
@@ -66,6 +88,8 @@ export const tagPageQuery = graphql`
           }
           frontmatter {
             title
+            description
+            tags
           }
         }
       }
