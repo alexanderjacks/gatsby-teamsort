@@ -19,9 +19,14 @@ class TagRoute extends React.Component {
         <Link to={post.node.fields.slug}
               className="columns"
         >
-          <h4 className="column is-size-4">{post.node.frontmatter.description}</h4>
-          <h2 className="column is-size-2">{post.node.frontmatter.title}</h2>
-          <div className="column is-size-6">
+          <div className="column">
+            <h4 className="is-size-6">{post.node.frontmatter.description}</h4>
+            <h2 className="is-size-4">{post.node.frontmatter.title}</h2>
+          </div>
+          <div className="column">
+            Test
+          </div>
+          <div className="column">
             {post.node.frontmatter.tags.map(tag => (
               <span key={tag + `tag`}
                   style={{  margin: `0.8rem`,
