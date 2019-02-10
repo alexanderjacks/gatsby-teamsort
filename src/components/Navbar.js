@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.png'
+import Cleo from '../img/Cleo_sm.png'
 import Hella from '../img/Hella_sm.png'
 import Hongyeom from '../img/Hongyeom_sm.png'
-import Cleo from '../img/Cleo_sm.png'
 
 const Navbar = class extends React.Component {
 
@@ -42,6 +42,10 @@ const Navbar = class extends React.Component {
           <img src={Cleo} alt="hero" style={{ width: '28px', height: '28px' }} />
           <img src={Hongyeom} alt="hero" style={{ width: '28px', height: '28px' }} />
           <img src={Hella} alt="hero" style={{ width: '28px', height: '28px' }} />
+          <span className="is-size-3"> &nbsp;&bull; TEAMSORT</span>
+          <br />
+          <span className="is-size-6"> &nbsp;&bull; For Educational Purposes Only: all IP VALOFE© & NexonGT©</span>
+
         </Link>
         {/* Hamburger menu */}
         <div className="navbar-burger burger" data-target="navMenu">
@@ -68,7 +72,7 @@ const Navbar = class extends React.Component {
       <div className="navbar-end has-text-centered">
         <a
           className="navbar-item"
-          href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
+          href="https://github.com/alexanderjacks/gatsby-teamsort"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -1,7 +1,6 @@
 ---
 templateKey: blog-post
 title: Chris
-date: 2017-01-04T15:04:10.000Z
 description: White Knight and Hero
 tags:
   - paper

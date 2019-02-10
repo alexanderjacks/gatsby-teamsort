@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { kebabCase } from 'lodash'
+import { kebabCase, startCase } from 'lodash'
 
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
@@ -13,7 +13,8 @@ class TagRoute extends React.Component {
           style={{  margin: `1.4rem`,
                     padding: `1.4rem`,
                     border: `1.5px grey solid`,
-                    borderRadius: `1.2rem` }}
+                    borderRadius: `1.2rem`
+          }}
       >
         <Link to={post.node.fields.slug}
               className="columns"
@@ -28,7 +29,7 @@ class TagRoute extends React.Component {
                             border: `1px teal solid`,
                             borderRadius: `0.8rem` }}
               >
-                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                <Link to={`/tags/${kebabCase(tag)}/`}>{`${startCase(tag)}`}</Link>
               </span>
             ))}
           </div>

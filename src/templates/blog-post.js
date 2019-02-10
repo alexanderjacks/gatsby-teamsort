@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
+import { kebabCase, startCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
@@ -38,7 +38,7 @@ export const BlogPostTemplate = ({
                                   border: `3px teal solid`,
                                   borderRadius: `1.2rem` }}
                     >
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                      <Link to={`/tags/${kebabCase(tag)}/`}>{`${startCase(tag)}`}</Link>
                     </li>
                   ))}
                 </ul>
