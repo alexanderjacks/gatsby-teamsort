@@ -5,9 +5,6 @@ description: Angelic, not much else known.
 tags:
   - paper
   - attack
+  - thornbush
 ---
 ![Azrael](/img/Azrael.png)
-
-## Do You Sleep Upside Down
-
-Angels and bats are both mammals and this is science.

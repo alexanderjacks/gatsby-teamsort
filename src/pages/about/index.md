@@ -10,7 +10,7 @@ A game for mobile and tablet on GooglePlay and the App Store, with a large numbe
 All heroes have a property, either:
 - Paper
 - Rock
-- Scissor
+- Scissors
 
 There are five ways that heroes act:
 - area attack

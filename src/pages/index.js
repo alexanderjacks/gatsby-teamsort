@@ -2,16 +2,6 @@ import React from 'react'
 import { kebabCase, startCase } from 'lodash'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-
-import Alex from '../img/Alex_sm.png'
-import Azrael from '../img/Azrael_sm.png'
-import Camelia from '../img/Camelia_sm.png'
-import Chris from '../img/Chris_sm.png'
-import Cleo from '../img/Cleo_sm.png'
-import Hella from '../img/Hella_sm.png'
-import Hongyeom from '../img/Hongyeom_sm.png'
-import Zero from '../img/Zero_sm.png'
-
 import Layout from '../components/Layout'
 
 export default class IndexPage extends React.Component {
@@ -29,19 +19,21 @@ export default class IndexPage extends React.Component {
             {posts
               .map(({ node: post }) => (
                 <div
-                  className="content"
+                  className="content columns is-vcentered"
                   style={{  margin: `1.4rem`,
                             padding: `1.4rem`,
                             border: `1.5px grey solid`,
-                            borderRadius: `1.2rem`
+                            borderRadius: `1.2rem`,
                   }}
                   key={post.id}
                 >
-                  <p>
-                    <Link className="is-size-2 has-text-primary" to={post.fields.slug}>
-                      {post.frontmatter.title}
-                    </Link>
-                  </p>
+                  <Link className="column is-size-2 has-text-primary" to={post.fields.slug}>
+                    {post.frontmatter.title}
+                    <div
+                      id="___gatsby"
+                      dangerouslySetInnerHTML={{ __html: post.html}}
+                    />
+                  </Link>
                   <div className="column is-size-6" style={{ listStyleType: 'none' }}>
                       {post.frontmatter.tags.map(tag => (
                         <span key={tag + `tag`}
@@ -54,14 +46,6 @@ export default class IndexPage extends React.Component {
                         </span>
                       ))}
                   </div>
-                  <p className="is-size-4">
-                    {post.excerpt}
-                    <br />
-                    <br />
-                    <Link className="button is-small" to={post.fields.slug}>
-                      Hero Deets →
-                    </Link>
-                  </p>
                 </div>
               ))}
           </div>
@@ -87,8 +71,8 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 400)
           id
+          html
           fields {
             slug
           }

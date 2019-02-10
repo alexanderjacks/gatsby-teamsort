@@ -20,8 +20,12 @@ class TagRoute extends React.Component {
               className="columns"
         >
           <div className="column">
-            <h4 className="is-size-6">{post.node.frontmatter.description}</h4>
-            <h2 className="is-size-4">{post.node.frontmatter.title}</h2>
+            <h4 className="is-size-5">{post.node.frontmatter.description}</h4>
+            <div
+              id="___gatsby"
+              dangerouslySetInnerHTML={{ __html: post.node.html}}
+            />
+            <h2 className="is-size-3">{post.node.frontmatter.title}</h2>
           </div>
           <div className="column">
             Test
@@ -83,7 +87,7 @@ export const tagPageQuery = graphql`
     }
     allMarkdownRemark(
       limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___title], order: ASC }
       filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
       totalCount
@@ -92,6 +96,7 @@ export const tagPageQuery = graphql`
           fields {
             slug
           }
+          html
           frontmatter {
             title
             description

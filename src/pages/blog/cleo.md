@@ -5,9 +5,6 @@ description: Succubus who likes protecting children.
 tags:
   - paper
   - balance
+  - thornbush
 ---
 ![Cleo](/img/Cleo.png)
-
-## Succubi make loyal friends
-
-And protect kids, too.

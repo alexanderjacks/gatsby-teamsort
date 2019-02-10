@@ -5,9 +5,6 @@ description: White Knight and Hero
 tags:
   - paper
   - defense
+  - grass
 ---
 ![Chris](/img/Chris.png)
-
-## White Knights can dress like pirates, too
-
-Chris is a girl.
