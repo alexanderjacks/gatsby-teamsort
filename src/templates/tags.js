@@ -20,15 +20,15 @@ class TagRoute extends React.Component {
               className="columns"
         >
           <div className="column">
+            Allies Go Here
+          </div>
+          <div className="column">
             <h4 className="is-size-5">{post.node.frontmatter.description}</h4>
             <div
               id="___gatsby"
               dangerouslySetInnerHTML={{ __html: post.node.html}}
             />
             <h2 className="is-size-3">{post.node.frontmatter.title}</h2>
-          </div>
-          <div className="column">
-            Test
           </div>
           <div className="column">
             {post.node.frontmatter.tags.map(tag => (

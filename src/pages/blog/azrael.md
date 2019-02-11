@@ -6,5 +6,9 @@ tags:
   - paper
   - attack
   - thornbush
+allies:
+  - Chris
+  - Angela
+  - Lena
 ---
 ![Azrael](/img/Azrael.png)

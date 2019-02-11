@@ -6,5 +6,9 @@ tags:
   - paper
   - balance
   - thornbush
+allies:
+  - Carrot
+  - Chenny
+  - Shu-Shu
 ---
 ![Cleo](/img/Cleo.png)

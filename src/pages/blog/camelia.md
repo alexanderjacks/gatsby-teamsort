@@ -6,5 +6,9 @@ tags:
   - paper
   - attack
   - thornbush
+allies:
+  - Ian
+  - Sraka
+  - Krut
 ---
 ![Camelia](/img/Camelia.png)

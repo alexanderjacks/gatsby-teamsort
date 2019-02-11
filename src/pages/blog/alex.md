@@ -6,5 +6,9 @@ tags:
   - paper
   - balance
   - grass
+allies:
+  - Deborah
+  - Tao
+  - Belle
 ---
 ![Alex](/img/Alex.png)

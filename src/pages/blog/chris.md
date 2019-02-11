@@ -6,5 +6,9 @@ tags:
   - paper
   - defense
   - grass
+allies:
+  - Lily
+  - Jin
+  - Unknown
 ---
 ![Chris](/img/Chris.png)
