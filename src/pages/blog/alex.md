@@ -5,7 +5,7 @@ description: Lancer
 tags:
   - paper
   - balance
-  - grass
+  - field
 allies:
   - Deborah
   - Tao

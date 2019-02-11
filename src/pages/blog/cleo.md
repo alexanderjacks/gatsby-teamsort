@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Cleo
-description: Succubus who likes protecting children.
+description: Sucubbus
 tags:
   - paper
   - balance

@@ -3,9 +3,9 @@ templateKey: blog-post
 title: Yuri Jahad
 description: Black Snakehead
 tags:
-  - Rock
-  - Area Attack
-  - Lava
+  - rock
+  - area attack
+  - lava
 allies:
   - Twenty-Fifth Bam
   - Khun Aguero Agnes

@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Ramlethal Valentine
-description: Longest name in the army.
+description: Backyard's Messenger
 tags:
   - scissors
   - area attack

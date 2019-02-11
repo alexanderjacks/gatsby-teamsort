@@ -2,7 +2,7 @@
 templateKey: 'blog-post'
 title: Hongyeom
 description: >-
-  Phoenix powers, nearly.
+  Vermillion Bird
 tags:
   - rock
   - area attack

@@ -1,11 +1,11 @@
 ---
 templateKey: blog-post
 title: Chris
-description: White Knight and Hero
+description: White Knight
 tags:
   - paper
   - defense
-  - grass
+  - field
 allies:
   - Lily
   - Jin

@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Azrael
-description: Angelic, not much else known.
+description: Artificial Angel
 tags:
   - paper
   - attack

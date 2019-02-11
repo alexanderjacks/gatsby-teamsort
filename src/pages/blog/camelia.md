@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Camelia
-description: Merchant of Night (Markets)
+description: Dark Merchant
 tags:
   - paper
   - attack

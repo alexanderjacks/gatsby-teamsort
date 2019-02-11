@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
-title: Hella the Secretary
-description: Attaché is like a secretary for war.
+title: Hella
+description: Aide
 tags:
   - rock
   - support
