@@ -19,7 +19,7 @@ export default class IndexPage extends React.Component {
             {posts
               .map(({ node: post }) => (
                 <div
-                  className="content columns is-vcentered"
+                  className="content is-vcentered"
                   style={{  margin: `1.4rem`,
                             padding: `1.4rem`,
                             border: `1.5px grey solid`,
@@ -27,20 +27,29 @@ export default class IndexPage extends React.Component {
                   }}
                   key={post.id}
                 >
-                  <Link className="column is-size-2 has-text-primary" to={post.fields.slug}>
+                  <Link className="is-size-2 has-text-primary" to={post.fields.slug}>
                     {post.frontmatter.title}
                     <div
                       id="___gatsby"
                       dangerouslySetInnerHTML={{ __html: post.html}}
                     />
                   </Link>
-                  <div className="column is-size-6" style={{ listStyleType: 'none' }}>
+                  <div
+                    className="container column is-10 is-offset-1"
+                    style={{  
+                              padding: `0.6rem`,
+                              border: `2px blue solid`,
+                              borderRadius: `1.1rem`
+                    }}
+                  >
                       {post.frontmatter.tags.map(tag => (
                         <span key={tag + `tag`}
-                            style={{  margin: `0.8rem`,
-                                      padding: `0.8rem`,
-                                      border: `1px teal solid`,
-                                      borderRadius: `0.8rem` }}
+                            className="tile"
+                            style={{  margin: `0.4rem`,
+                                      padding: `0.4rem`,
+                                      flex: 1,
+                                      border: `2px red solid`,
+                                      borderRadius: `1.1rem` }}
                         >
                           <Link to={`/tags/${kebabCase(tag)}/`}>{`${startCase(tag)}`}</Link>
                         </span>

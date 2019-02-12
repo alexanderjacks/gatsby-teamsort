@@ -36,18 +36,28 @@ export const BlogPostTemplate = ({
             <div className="column is-6">
               <PostContent content={content} />
             </div>
-            <div className="column">
+            <div className="column is-10 is-offset-1">
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
-                <ul className="taglist">
+                <ul className="taglist columns"
+                    style={{  margin: `0.4rem`,
+                              border: `2px blue solid`
+                    }}
+                >
                   {tags.map(tag => (
                     <li key={tag + `tag`}
-                        style={{  margin: `2rem`,
-                                  padding: `2rem`,
-                                  border: `3px teal solid`,
-                                  borderRadius: `1.2rem` }}
+                        className="column columns"
+                        style={{  margin: `0.4rem`,
+                                  padding: `1rem`,
+                                  border: `2px red solid`,
+                                  borderRadius: `1.1rem` }}
                     >
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{`${startCase(tag)}`}</Link>
+                      <Link 
+                        to={`/tags/${kebabCase(tag)}/`}
+                        className="column"
+                      >
+                        {`${startCase(tag)}`}
+                      </Link>
                     </li>
                   ))}
                 </ul>

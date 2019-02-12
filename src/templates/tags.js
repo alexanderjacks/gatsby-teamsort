@@ -10,6 +10,7 @@ class TagRoute extends React.Component {
     const posts = this.props.data.allMarkdownRemark.edges
     const postLinks = posts.map(post => (
       <li key={post.node.fields.slug}
+          className="column"
           style={{  margin: `1.4rem`,
                     padding: `1.4rem`,
                     border: `1.5px grey solid`,
@@ -30,15 +31,21 @@ class TagRoute extends React.Component {
             />
             <h2 className="is-size-3">{post.node.frontmatter.title}</h2>
           </div>
-          <div className="column">
+          <div className="column columns">
             {post.node.frontmatter.tags.map(tag => (
               <span key={tag + `tag`}
-                  style={{  margin: `0.8rem`,
-                            padding: `0.8rem`,
+                    className="column columns"
+                    style={{  margin: `0.4rem`,
+                            padding: `0.4rem`,
                             border: `1px teal solid`,
                             borderRadius: `0.8rem` }}
               >
-                <Link to={`/tags/${kebabCase(tag)}/`}>{`${startCase(tag)}`}</Link>
+                <Link 
+                  to={`/tags/${kebabCase(tag)}/`}
+                  className="column"
+                >
+                  {`${startCase(tag)}`}
+                </Link>
               </span>
             ))}
           </div>
@@ -63,7 +70,7 @@ class TagRoute extends React.Component {
                 style={{ marginBottom: '6rem' }}
               >
                 <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
-                <ul className="taglist">{postLinks}</ul>
+                <ul className="taglist columns">{postLinks}</ul>
                 <p>
                   <Link to="/tags/">Browse all tags</Link>
                 </p>
