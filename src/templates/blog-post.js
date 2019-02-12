@@ -11,6 +11,7 @@ export const BlogPostTemplate = ({
   contentComponent,
   description,
   tags,
+  allies,
   title,
   helmet,
 }) => {
@@ -30,8 +31,33 @@ export const BlogPostTemplate = ({
                 &nbsp;{description}
               </span>
             </div>
-            <div className="column is-6">
-              <h1>Allies Go Here</h1>
+            <div className="column">
+              {allies && allies.length ? (
+              <div style={{ marginTop: `4rem` }}>
+                <ul className="taglist columns"
+                    style={{  margin: `0.4rem`,
+                              border: `2px blue solid`
+                    }}
+                >
+                  {allies.map(ally => (
+                    <li key={ally + `ally`}
+                        className="column columns"
+                        style={{  margin: `0.4rem`,
+                                  padding: `1rem`,
+                                  border: `2px red solid`,
+                                  borderRadius: `1.1rem` }}
+                    >
+                      <Link 
+                        to={`/tags/${kebabCase(ally)}/`}
+                        className="column"
+                      >
+                        {`${startCase(ally)}`}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
             </div>
             <div className="column is-6">
               <PostContent content={content} />
@@ -120,6 +146,7 @@ export const pageQuery = graphql`
         title
         description
         tags
+        allies
       }
     }
   }

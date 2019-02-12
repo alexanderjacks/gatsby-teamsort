@@ -20,8 +20,23 @@ class TagRoute extends React.Component {
         <Link to={post.node.fields.slug}
               className="columns"
         >
-          <div className="column">
-            Allies Go Here
+          <div className="column columns">
+            {post.node.frontmatter.allies.map(ally => (
+              <span key={ally + `ally`}
+                    className="column columns"
+                    style={{  margin: `0.25rem`,
+                            padding: `0.25rem`,
+                            border: `1px teal solid`,
+                            borderRadius: `0.5rem` }}
+              >
+                <Link 
+                  to={`/tags/${kebabCase(ally)}/`}
+                  className="column"
+                >
+                  {`${startCase(ally)}`}
+                </Link>
+              </span>
+            ))}
           </div>
           <div className="column">
             <h4 className="is-size-5">{post.node.frontmatter.description}</h4>
@@ -108,6 +123,7 @@ export const tagPageQuery = graphql`
             title
             description
             tags
+            allies
           }
         }
       }
