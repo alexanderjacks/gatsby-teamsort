@@ -8,7 +8,7 @@ tags:
   -  Glacier
   -  Water
 allies:
-  -  Twenty-Fifth Bam
+  -  Twentyfifth Bam
   -  Yuri Jahad
   -  Endorsi Jahad
 

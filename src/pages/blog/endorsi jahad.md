@@ -7,7 +7,7 @@ tags:
   -  Balance
   -  Thornbush
 allies:
-  -  Twenty-Fifth Bam
+  -  Twentyfifth Bam
   -  Khun Aguero Agnes
   -  Yuri Jahad
 

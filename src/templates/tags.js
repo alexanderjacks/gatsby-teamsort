@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { kebabCase, startCase } from 'lodash'
+import { kebabCase, startCase, lowerCase } from 'lodash'
+import slugify from 'slugify'
 
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
@@ -30,7 +31,7 @@ class TagRoute extends React.Component {
                             borderRadius: `0.5rem` }}
               >
                 <Link 
-                  to={`/blog/${kebabCase(ally)}/`}
+                  to={`/blog/${lowerCase(slugify(ally, ' '))}/`}
                   className="column"
                 >
                   {`${startCase(ally)}`}

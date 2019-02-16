@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { kebabCase, startCase } from 'lodash'
+import { kebabCase, startCase, lowerCase } from 'lodash'
+import slugify from 'slugify'
+
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
@@ -40,7 +42,7 @@ export const BlogPostTemplate = ({
                                   borderRadius: `1.1rem` }}
                     >
                       <Link 
-                        to={`/blog/${kebabCase(ally)}/`}
+                        to={`/blog/${lowerCase(slugify(ally, ' '))}/`}
                         className=""
                       >
                         {`${startCase(ally)}`}

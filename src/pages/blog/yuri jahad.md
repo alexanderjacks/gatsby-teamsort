@@ -7,7 +7,7 @@ tags:
   -  Area Attack
   -  Lava
 allies:
-  -  Twenty-Fifth Bam
+  -  Twentyfifth Bam
   -  Khun Aguero Agnes
   -  Endorsi Jahad
 

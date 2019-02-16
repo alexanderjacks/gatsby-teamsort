@@ -1,7 +1,7 @@
 ---
 templateKey: 'blog-post'
 title: Jin Kisaragi
-description: The Black Tortoise
+description: Hero of Ikaruga
 tags:
   -  Scissors
   -  Balance

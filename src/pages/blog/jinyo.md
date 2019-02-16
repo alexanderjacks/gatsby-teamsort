@@ -1,7 +1,7 @@
 ---
 templateKey: 'blog-post'
 title: Jinyo
-description: Hero of Ikaruga
+description: The Black Tortoise
 tags:
   -  Scissors
   -  Defense
