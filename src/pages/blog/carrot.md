@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Carrot
-description: Sucubbus
+description: Big Shot
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Paper
+  -  Attack
+  -  Field
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Jenny
+  -  Serendi
+  -  Kitty
+
 ---
 ![Carrot](/img/Carrot.png)

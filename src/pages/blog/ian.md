@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Ian
-description: Sucubbus
+description: Black Cat
 tags:
-  - rock
-  - balance
-  - thornbush
+  -  Rock
+  -  Balance
+  -  Thornbush
 allies:
-  - Serendi
-  - Chenny
-  - Jin
+  -  Serendi
+  -  Jin
+  -  Chenny
+
 ---
 ![Ian](/img/Ian.png)

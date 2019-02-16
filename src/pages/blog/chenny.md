@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Chenny
-description: Sucubbus
+description: Magician
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Scissors
+  -  Balance
+  -  Glacier
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Alfred
+  -  Deborah
+  -  Klein
+
 ---
 ![Chenny](/img/Chenny.png)

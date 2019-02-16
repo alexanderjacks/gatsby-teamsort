@@ -1,14 +1,16 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Belle
-description: Sucubbus
+description: Healer
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Scissors
+  -  Support
+  -  Swamp
+  -  Water
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Dolores
+  -  Hella
+  -  Nirvana
+
 ---
 ![Belle](/img/Belle.png)

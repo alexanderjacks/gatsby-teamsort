@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Fruel
-description: Sucubbus
+description: Combat Ranger
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Scissors
+  -  Attack
+  -  Thornbush
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Lily
+  -  Azrael
+  -  Nirvana
+
 ---
 ![Fruel](/img/Fruel.png)

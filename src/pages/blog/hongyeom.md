@@ -1,15 +1,15 @@
 ---
 templateKey: 'blog-post'
 title: Hongyeom
-description: >-
-  Vermillion Bird
+description: Vermilion Bird
 tags:
-  - rock
-  - area attack
-  - lava
+  -  Rock
+  -  Area Attack
+  -  Lava
 allies:
-  - Mas
-  - Lena
-  - Sonic Boom
+  -  Mas
+  -  Lena
+  -  Sonic Boom
+
 ---
 ![Hongyeom](/img/Hongyeom.png)

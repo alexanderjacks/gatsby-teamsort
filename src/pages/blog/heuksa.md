@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Heuksa
-description: Sucubbus
+description: Bloodlust
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Rock
+  -  Balance
+  -  Poison
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Taehwa
+  -  Ryeogang
+  -  Churyeok
+
 ---
 ![Heuksa](/img/Heuksa.png)

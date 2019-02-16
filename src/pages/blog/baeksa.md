@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Baeksa
-description: Sucubbus
+description: Vengeful
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Scissors
+  -  Area Attack
+  -  Thornbush
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Heuksa
+  -  Alfred
+  -  Angela
+
 ---
 ![Baeksa](/img/Baeksa.png)

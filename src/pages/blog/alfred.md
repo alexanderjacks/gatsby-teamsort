@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Alfred
 description: Professor
 tags:
-  - rock
-  - area attack
-  - field
+  -  Rock
+  -  Area Attack
+  -  Field
 allies:
-  - Sraka
-  - Lilid
-  - Shark
+  -  Sraka
+  -  Lilid
+  -  Shark
+
 ---
 ![Alfred](/img/Alfred.png)

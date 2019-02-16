@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Angela
 description: Iron Princess
 tags:
-  - paper
-  - balance
-  - Poison
+  -  Paper
+  -  Balance
+  -  Poison
 allies:
-  - Jenny
-  - Jin
-  - Lena
+  -  Jenny
+  -  Jin
+  -  Lena
+
 ---
 ![Angela](/img/Angela.png)

@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Azrael
 description: Artificial Angel
 tags:
-  - paper
-  - attack
-  - thornbush
+  -  Paper
+  -  Attack
+  -  Thornbush
 allies:
-  - Chris
-  - Angela
-  - Lena
+  -  Chris
+  -  Angela
+  -  Lena
+
 ---
 ![Azrael](/img/Azrael.png)

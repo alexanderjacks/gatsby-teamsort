@@ -1,14 +1,16 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Gillan
-description: Sucubbus
+description: Drug Master
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Rock
+  -  Support
+  -  Poison
+  -  Swamp
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Henry
+  -  Muang
+  -  Zero
+
 ---
 ![Gillan](/img/Gillan.png)

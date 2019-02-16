@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Twenty-Fifth Bam
 description: Irregular
 tags:
-  - scissors
-  - attack
-  - water
+  -  Scissors
+  -  Attack
+  -  Water
 allies:
-  - Khun Aguero Agnes
-  - Yuri Jahad
-  - Endorsi Jahad
+  -  Khun Aguero Agnes
+  -  Yuri Jahad
+  -  Endorsi Jahad
+
 ---
 ![Twenty-Fifth Bam](/img/Twenty-Fifth Bam.png)

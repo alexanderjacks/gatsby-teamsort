@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Cleo
-description: Sucubbus
+description: Succubus
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Paper
+  -  Balance
+  -  Thornbush
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Carrot
+  -  Chenny
+  -  Shu-Shu
+
 ---
 ![Cleo](/img/Cleo.png)

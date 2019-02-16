@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Henry
-description: Sucubbus
+description: Killing Machine
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Rock
+  -  Attack
+  -  Swamp
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Dominique
+  -  Angela
+  -  Lily
+
 ---
 ![Henry](/img/Henry.png)

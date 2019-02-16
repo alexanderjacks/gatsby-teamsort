@@ -1,14 +1,16 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Camelia
 description: Dark Merchant
 tags:
-  - paper
-  - attack
-  - thornbush
+  -  Paper
+  -  Support
+  -  Thornbush
+  -  Field
 allies:
-  - Ian
-  - Sraka
-  - Krut
+  -  Ian
+  -  Sraka
+  -  Krut
+
 ---
 ![Camelia](/img/Camelia.png)

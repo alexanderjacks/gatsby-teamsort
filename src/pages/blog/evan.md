@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Evan
-description: Sucubbus
+description: Dragon Master
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Scissors
+  -  Area Attack
+  -  Lava
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Mercedes
+  -  Phantom
+  -  Luminous
+
 ---
 ![Evan](/img/Evan.png)

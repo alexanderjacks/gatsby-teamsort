@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Deborah
-description: Sucubbus
+description: Magician
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Scissors
+  -  Area Attack
+  -  Poison
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Alfred
+  -  Lance
+  -  Klein
+
 ---
 ![Deborah](/img/Deborah.png)

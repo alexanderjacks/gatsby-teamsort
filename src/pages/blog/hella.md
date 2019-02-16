@@ -1,10 +1,16 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Hella
 description: Aide
 tags:
-  - rock
-  - support
-  - water
+  -  Rock
+  -  Support
+  -  Water
+  -  Glacier
+allies:
+  -  Lee
+  -  Lee
+  -  Lee
+
 ---
 ![Hella](/img/Hella.png)

@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Frankenstein
-description: Sucubbus
+description: Butler
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Scissors
+  -  Attack
+  -  Poison
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Seira
+  -  Alfred
+  -  Raskreia
+
 ---
 ![Frankenstein](/img/Frankenstein.png)

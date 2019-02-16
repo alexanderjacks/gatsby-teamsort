@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Churyeok
-description: Sucubbus
+description: Martial Artist
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Scissors
+  -  Defense
+  -  Water
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Lily
+  -  Unknown
+  -  Tao
+
 ---
 ![Churyeok](/img/Churyeok.png)

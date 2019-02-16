@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Dolores
-description: Sucubbus
+description: Nouveau Riche
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Paper
+  -  Balance
+  -  Lava
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Kai
+  -  Rage
+  -  Fruel
+
 ---
 ![Dolores](/img/Dolores.png)

@@ -1,14 +1,16 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Camilla
-description: Sucubbus
+description: Vampire
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Rock
+  -  Support
+  -  Poison
+  -  Swamp
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Serendi
+  -  Nox
+  -  Rachel
+
 ---
 ![Camilla](/img/Camilla.png)

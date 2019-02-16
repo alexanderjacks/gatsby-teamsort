@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Bearman
 description: Reinforced Human
 tags:
-  - scissors
-  - defense
-  - poison
+  -  Scissors
+  -  Defense
+  -  Poison
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Carrot
+  -  Chenny
+  -  Shu-Shu
+
 ---
 ![Bearman](/img/Bearman.png)

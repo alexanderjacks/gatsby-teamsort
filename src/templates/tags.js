@@ -30,7 +30,7 @@ class TagRoute extends React.Component {
                             borderRadius: `0.5rem` }}
               >
                 <Link 
-                  to={`/tags/${kebabCase(ally)}/`}
+                  to={`/blog/${kebabCase(ally)}/`}
                   className="column"
                 >
                   {`${startCase(ally)}`}
@@ -52,7 +52,7 @@ class TagRoute extends React.Component {
                     className="column columns"
                     style={{  margin: `0.4rem`,
                             padding: `0.4rem`,
-                            border: `1px teal solid`,
+                            border: `1px indianred solid`,
                             borderRadius: `0.8rem` }}
               >
                 <Link 
@@ -81,7 +81,7 @@ class TagRoute extends React.Component {
           <div className="container content">
             <div className="columns">
               <div
-                className="column is-10 is-offset-1"
+                className="column is-12"
                 style={{ marginBottom: '6rem' }}
               >
                 <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>

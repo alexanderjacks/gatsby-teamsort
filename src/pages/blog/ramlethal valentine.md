@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Ramlethal Valentine
 description: Backyard's Messenger
 tags:
-  - scissors
-  - area attack
-  - thornbush
+  -  Scissors
+  -  Area Attack
+  -  Thornbush
 allies:
-  - Ky Kiske
-  - Sol Badguy
-  - May
+  -  Ky Kiske
+  -  Sol Badguy
+  -  May
+
 ---
-![Ramlethal Valentine](/img/Ramlethal.png)
+![Ramlethal Valentine](/img/Ramlethal Valentine.png)

@@ -1,14 +1,16 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Celestial
-description: Sucubbus
+description: Dragon
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Paper
+  -  Support
+  -  Field
+  -  Thornbush
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Yekaterina
+  -  Angela
+  -  Lily
+
 ---
 ![Celestial](/img/Celestial.png)

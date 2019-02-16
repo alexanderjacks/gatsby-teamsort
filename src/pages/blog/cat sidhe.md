@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Cat Sidhe
-description: Sucubbus
+description: Wildcat
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Rock
+  -  Attack
+  -  Thornbush
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Ian
+  -  Mas
+  -  Lena
+
 ---
 ![Cat Sidhe](/img/Cat Sidhe.png)

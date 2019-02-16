@@ -21,16 +21,8 @@ export const BlogPostTemplate = ({
     <section className="section">
       {helmet || ''}
       <div className="container content">
-        <div className="columns">
-          <div className="columns column is-10 is-offset-1">
-            <div className="column">
-              <span className="title is-size-2 has-text-weight-bold is-bold-light">
-                {title} - 
-              </span>
-              <span className="is-size-3">
-                &nbsp;{description}
-              </span>
-            </div>
+
+          <div className="columns column is-12">
             <div className="column">
               {allies && allies.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -48,8 +40,8 @@ export const BlogPostTemplate = ({
                                   borderRadius: `1.1rem` }}
                     >
                       <Link 
-                        to={`/tags/${kebabCase(ally)}/`}
-                        className="column"
+                        to={`/blog/${kebabCase(ally)}/`}
+                        className=""
                       >
                         {`${startCase(ally)}`}
                       </Link>
@@ -61,8 +53,16 @@ export const BlogPostTemplate = ({
             </div>
             <div className="column is-6">
               <PostContent content={content} />
+              <p>
+                <span className="title is-size-2 has-text-weight-bold is-bold-light">
+                  {title} - 
+                </span>
+                <span className="is-size-3">
+                  &nbsp;{description}
+                </span>
+              </p>
             </div>
-            <div className="column is-10 is-offset-1">
+            <div className="row is-10">
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <ul className="taglist columns"
@@ -91,7 +91,7 @@ export const BlogPostTemplate = ({
             ) : null}
             </div>
           </div>
-        </div>
+
       </div>
     </section>
   )
@@ -123,6 +123,7 @@ const BlogPost = ({ data }) => {
           </Helmet>
         }
         tags={post.frontmatter.tags}
+        allies={post.frontmatter.allies}
         title={post.frontmatter.title}
       />
     </Layout>

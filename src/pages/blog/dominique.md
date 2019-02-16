@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Dominique
-description: Sucubbus
+description: Resistance
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Rock
+  -  Attack
+  -  Thornbush
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Henry
+  -  Lily
+  -  Angela
+
 ---
 ![Dominique](/img/Dominique.png)

@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Chris
 description: White Knight
 tags:
-  - paper
-  - defense
-  - field
+  -  Paper
+  -  Defense
+  -  Field
 allies:
-  - Lily
-  - Jin
-  - Unknown
+  -  Lily
+  -  Jin
+  -  Unknown
+
 ---
 ![Chris](/img/Chris.png)

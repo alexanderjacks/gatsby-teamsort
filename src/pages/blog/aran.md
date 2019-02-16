@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Aran
 description: Battlefield Conqueror
 tags:
-  - rock
-  - balance
-  - thornbush
+  -  Rock
+  -  Balance
+  -  Thornbush
 allies:
-  - Evan
-  - Eunwol
-  - Mercedes
+  -  Evan
+  -  Eunwol
+  -  Mercedes
+
 ---
 ![Aran](/img/Aran.png)

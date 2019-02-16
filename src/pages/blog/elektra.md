@@ -1,14 +1,16 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Elektra
-description: Sucubbus
+description: Fonea Queen
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Scissors
+  -  Support
+  -  Thornbush
+  -  Glacier
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Ian
+  -  Carrot
+  -  Kitty
+
 ---
 ![Elektra](/img/Elektra.png)

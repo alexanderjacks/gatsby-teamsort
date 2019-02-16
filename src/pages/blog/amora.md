@@ -1,15 +1,16 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Amora
 description: North Sea Witch
 tags:
-  - scissors
-  - area attack
-  - water
-  - deep sea
+  -  Scissors
+  -  Area Attack
+  -  Water
+  -  DeepSea
 allies:
-  - Carrot
-  - Sione
-  - Gillan
+  -  Carrot
+  -  Sione
+  -  Gillan
+
 ---
 ![Amora](/img/Amora.png)

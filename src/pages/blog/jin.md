@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Jin
-description: ????
+description: Mercenary Captain
 tags:
-  - scissors
-  - attack
-  - lava
+  -  Scissors
+  -  Attack
+  -  Lava
 allies:
-  - Kai
-  - Rage
-  - Unknown
+  -  Kai
+  -  Rage
+  -  Unknown
+
 ---
 ![Jin](/img/Jin.png)

@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Deimos
-description: Sucubbus
+description: Tyrant
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Scissors
+  -  Defense
+  -  Poison
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Carrot
+  -  Lily
+  -  Valkyrie
+
 ---
 ![Deimos](/img/Deimos.png)

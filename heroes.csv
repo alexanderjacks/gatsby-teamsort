@@ -1,0 +1,108 @@
+Name,Description,Alignment,Battle Type,Terrain 1,Terrain 2,1st Coop,2nd Coop,3rd Coop
+Alex,Lancer,Paper,Balance,Field,,Deborah,Tao,Belle
+Alfred,Professor,Rock,Area Attack,Field,,Sraka,Lilid,Shark
+Amora,North Sea Witch,Scissors,Area Attack,Water,DeepSea,Carrot,Sione,Gillan
+Angela,Iron Princess,Paper,Balance,Poison,,Jenny,Jin,Lena
+Aran,Battlefield Conqueror,Rock,Balance,Thornbush,,Evan,Eunwol,Mercedes
+Azrael,Artificial Angel,Paper,Attack,Thornbush,,Chris,Angela,Lena
+Baeksa,Vengeful,Scissors,Area Attack,Thornbush,,Heuksa,Alfred,Angela
+Banshee,Witch,Scissors,Balance,Poison,,Spooky,Spooky,Spooky
+Bearman,Reinforced Human,Scissors,Defense,Poison,,Carrot,Chenny,Shu-Shu
+Belle,Healer,Scissors,Support,Swamp,Water,Dolores,Hella,Nirvana
+Camelia,Dark Merchant,Paper,Support,Thornbush,Field,Ian,Sraka,Krut
+Camilla,Vampire,Rock,Support,Poison,Swamp,Serendi,Nox,Rachel
+Carrot,Big Shot,Paper,Attack,Field,,Jenny,Serendi,Kitty
+Cat Sidhe,Wildcat,Rock,Attack,Thornbush,,Ian,Mas,Lena
+Celestial,Dragon,Paper,Support,Field,Thornbush,Yekaterina,Angela,Lily
+Chenny,Magician,Scissors,Balance,Glacier,,Alfred,Deborah,Klein
+Chris,White Knight,Paper,Defense,Field,,Lily,Jin,Unknown
+Churyeok,Martial Artist,Scissors,Defense,Water,,Lily,Unknown,Tao
+Cleo,Succubus,Paper,Balance,Thornbush,,Carrot,Chenny,Shu-Shu
+Deborah,Magician,Scissors,Area Attack,Poison,,Alfred,Lance,Klein
+Deimos,Tyrant,Scissors,Defense,Poison,,Carrot,Lily,Valkyrie
+Dolores,Nouveau Riche,Paper,Balance,Lava,,Kai,Rage,Fruel
+Dominique,Resistance,Rock,Attack,Thornbush,,Henry,Lily,Angela
+Elektra,Fonea Queen,Scissors,Support,Thornbush,Glacier,Ian,Carrot,Kitty
+Endorsi Jahad,World Heritage,Scissors,Balance,Thornbush,,Twenty-Fifth Bam,Khun Aguero Agnes,Yuri Jahad
+Eunwol,The Forgotten Hero,Paper,Defense,Water,,Aran,Luminous,Evan
+Evan,Dragon Master,Scissors,Area Attack,Lava,,Mercedes,Phantom,Luminous
+Frankenstein,Butler,Scissors,Attack,Poison,,Seira,Alfred,Raskreia
+Fruel,Combat Ranger,Scissors,Attack,Thornbush,,Lily,Azrael,Nirvana
+Gillan,Drug Master,Rock,Support,Poison,Swamp,Henry,Muang,Zero
+Hella,Aide,Rock,Support,Water,Glacier,Lee,Lee,Lee
+Henry,Killing Machine,Rock,Attack,Swamp,,Dominique,Angela,Lily
+Heuksa,Bloodlust,Rock,Balance,Poison,,Taehwa,Ryeogang,Churyeok
+Hongyeom,Vermilion Bird,Rock,Area Attack,Lava,,Mas,Lena,Sonic Boom
+Ian,Black Cat,Rock,Balance,Thornbush,,Serendi,Jin,Chenny
+Ildo,Escort,Paper,Defense,Thornbush,,Hongyeom,Ian,Taehwa
+Jack,Werewolf,Rock,Defense,Lava,,Lance,Mas,Shu-Shu
+Jakyak,?????,Scissors,Support,Thornbush,Field,Ildo,Hongyeom,Sogoon
+Jenny,Cowgirl,Paper,Area Attack,Thornbush,,Carrot,Rage,Momo
+Jin,Mercenary Captain,Scissors,Attack,Lava,,Kai,Rage,Unknown
+Jin Kisaragi,The Black Tortoise,Scissors,Balance,Glacier,,Ragna,Noel,Rachel
+Jinyo,Hero of Ikaruga,Scissors,Defense,Poison,,Chenny,Shu-Shu,Carrot
+Kai,Hero,Rock,Balance,Lava,,Chris,Raboff,Mu
+Khun Aguero Agnes,A.A.,Paper,Support,Glacier,Water,Twenty-Fifth Bam,Yuri Jahad,Endorsi Jahad
+Kitty,Android,Rock,Area Attack,Glacier,,Sraka,Dolores,Moa
+Klein,Archmage,Paper,Area Attack,Lava,,Ian,Jack,Bearman
+Krut,Red Orc,Rock,Attack,Lava,,Sraka,Lily,Jin
+Ky Kiske,First King,Paper,Balance,Glacier,,Sol Badguy,May,Ramlethal Valentine
+Lance,Golem,Scissors,Defense,Swamp,,Alfred,Deborah,Klein
+Lee,Psychokinetic,Scissors,Attack,Glacier,,Moa,Elektra,Klein
+Lena,Diva,Scissors,Balance,Glacier,,Nox,Persona,Fruel
+Lilid,Wild Boy,Rock,Defense,Poison,,Ian,Poni,Jack
+Lily,Maid,Paper,Attack,Swamp,,Henry,Dominique,Angela
+Lucas,Zombie,Paper,Balance,Field,,Jack,Ian,Poni
+Luminous,Guardian of Light,Scissors,Support,Glacier,Poison,Aran,Eunwol,Phantom
+Lynn,?????,Scissors,Balance,Thornbush,,Tao,Camelia,Mu
+Mary,Maid,Rock,Area Attack,Swamp,,Sione,Lily,Klein
+Mas,Bard,Paper,Support,Field,Water,Serendi,Nox,Fruel
+May,Jellyfish Pirate,Scissors,Attack,Water,,Sol Badguy,Ky Kiske,Ramlethal Valentine
+Mercedes,Elf Queen,Rock,Attack,Field,,Evan,Phantom,Luminous
+Moa,Black Wizard,Paper,Area Attack,Lava,,Elektra,Lee,Klein
+Momo,White Rabbit,Rock,Attack,Field,,Bearman,Muang,Alex
+Mu,Exorcist,Paper,Balance,Swamp,,Dolores,Persona,Tao
+Muang,Pyromaniac,Scissors,Area Attack,Lava,,Kai,Sonic Boom,Poni
+Muzaka,Werewolf,Rock,Defense,Thornbush,,Jack,Seira,Raskreia
+Nirvana,Healer,Paper,Support,Water,Glacier,Hella,Sione,Belle
+Noel,Vermillion,Rock,Attack,Field,,Ragna,Jin Kisaragi,Rachel
+Nox,Vampire,Paper,Attack,Glacier,,Bearman,Elektra,Momo
+Parsifal,?????,Scissors,Attack,Water,,Deimos,Valkyrie,Chris
+Persona,Phantom Thief,Rock,Balance,Water,,Sonic Boom,Lena,Shark
+Phantom,Thief,Paper,Balance,Thornbush,,Evan,Mercedes,Luminous
+Pink Bean,Jellylike,Paper,Attack,Field,,Celestial,Sonic Boom,Moa
+Poni,Phoenix,Scissors,Balance,Lava,,Ian,Dolores,Moa
+Raboff,General,Paper,Defense,Field,,Chris,Alex,Mu
+Rachel,Vampire,Paper,Area Attack,Poison,,Ragna,Jin Kisaragi,Noel
+Rage,Gunner,Rock,Attack,Poison,,Chris,Serendi,Dominique
+Ragna,The Bloodege,Scissors,Attack,Lava,,Jin Kisaragi,Noel,Rachel
+Raizel,Noblesse,Paper,Attack,Swamp,,Frankenstein,Seira,Raskreia
+Ramlethal Valentine,Backyard's Messenger,Scissors,Area Attack,Thornbush,,Ky Kiske,Sol Badguy,May
+Raskreia,Lord,Scissors,Area Attack,Field,,Seira,Frankenstein,Nox
+Reina,Wolf Hunter,Scissors,Balance,Field,,Jin,Lily,Belle
+Ryeogang,Fortune-teller,Paper,Balance,Water,,Carrot,Chenny,Shu-Shu
+Sehee,Phoenix Seed,Paper,Attack,Lava,,Hongyeom,Churyeok,Heuksa
+Seira,Reaper,Scissors,Attack,Glacier,,Raskreia,Frankenstein,Lily
+Serendi,Dryad,Rock,Balance,Swamp,,Ian,Moa,Momo
+Serphina,Magic Knight,Scissors,Area Attack,Water,,Mas,Fruel,Persona
+Shark,Pirate,Scissors,Balance,Water,,Deborah,Cleo,Hella
+Shu-Shu,Little Angel,Rock,Support,Water,Poison,Gillan,Alfred,Zero
+Sione,Black Bride,Scissors,Attack,Swamp,,Gillian,Azrael,Klein
+Sogoon,White Tiger,Scissors,Attack,Glacier,,Hongyeom,Rage,Unknown
+Sol Badguy,Bounty Hunter,Rock,Balance,Lava,,Ky Kiske,May,Ramlethal Valentine
+Sonic Boom,Ninja,Scissors,Balance,Lava,,Mas,Lena,Nox
+Spooky,Witch,Rock,Support,Lava,Thornbush,Banshee,Banshee,Banshee
+Sraka,Orc Warrior,Scissors,Attack,Water,,Alfred,Bearman,Lilid
+Taehwa,Painter,Scissors,Balance,Water,,Sraka,Dolores,Krut
+Tao,Kung Fu Girl,Scissors,Attack,Thornbush,,Alfred,Lily,Unknown
+Thanatos,Dragon,Rock,Balance,Poison,,Celestial,Yekaterina,Kai
+Twenty-Fifth Bam,Irregular,Scissors,Attack,Water,,Khun Aguero Agnes,Yuri Jahad,Endorsi Jahad
+Unknown,Wanderer,Rock,Attack,Water,,Nirvana,Shu-Shu,Belle
+Valkyrie,Soul Gear,Paper,Defense,Thornbush,,Chris,Kai,Alfred
+Woryeong,Azure Dragon,Paper,Area Attack,Water,Deep Sea,Hongyeom,Sogoon,Mas
+Yeka,Little Magician,Rock,Balance,Water,,Celestial,Yekaterina,Carrot
+Yekaterina,Magician,Rock,Area Attack,Water,,Chenny,Deborah,Klein
+Yuri Jahad,Black Snakehead,Rock,Area Attack,Lava,,Twenty-Fifth Bam,Khun Aguero Agnes,Endorsi Jahad
+Zero,Assassin,Rock,Balance,Poison,,Cleo,Momo,Sione
+,,,,,,,,
+,,,,104,,,,

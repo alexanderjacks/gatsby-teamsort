@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Zero
 description: Assassin
 tags:
-  - rock
-  - balance
-  - poison
+  -  Rock
+  -  Balance
+  -  Poison
 allies:
-  - Cleo
-  - Momo
-  - Sione
+  -  Cleo
+  -  Momo
+  -  Sione
+
 ---
 ![Zero](/img/Zero.png)

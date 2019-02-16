@@ -1,14 +1,15 @@
 ---
-templateKey: blog-post
+templateKey: 'blog-post'
 title: Eunwol
-description: Sucubbus
+description: The Forgotten Hero
 tags:
-  - paper
-  - balance
-  - thornbush
+  -  Paper
+  -  Defense
+  -  Water
 allies:
-  - Carrot
-  - Chenny
-  - Shu-Shu
+  -  Aran
+  -  Luminous
+  -  Evan
+
 ---
 ![Eunwol](/img/Eunwol.png)
