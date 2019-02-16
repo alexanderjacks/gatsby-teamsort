@@ -7,7 +7,7 @@ Aran,Battlefield Conqueror,Rock,Balance,Thornbush,,Evan,Eunwol,Mercedes
 Azrael,Artificial Angel,Paper,Attack,Thornbush,,Chris,Angela,Lena
 Baeksa,Vengeful,Scissors,Area Attack,Thornbush,,Heuksa,Alfred,Angela
 Banshee,Witch,Scissors,Balance,Poison,,Spooky,Spooky,Spooky
-Bearman,Reinforced Human,Scissors,Defense,Poison,,Carrot,Chenny,Shu-Shu
+Bearman,Reinforced Human,Scissors,Defense,Poison,,Carrot,Chenny,Shu Shu
 Belle,Healer,Scissors,Support,Swamp,Water,Dolores,Hella,Nirvana
 Camelia,Dark Merchant,Paper,Support,Thornbush,Field,Ian,Sraka,Krut
 Camilla,Vampire,Rock,Support,Poison,Swamp,Serendi,Nox,Rachel
@@ -17,7 +17,7 @@ Celestial,Dragon,Paper,Support,Field,Thornbush,Yekaterina,Angela,Lily
 Chenny,Magician,Scissors,Balance,Glacier,,Alfred,Deborah,Klein
 Chris,White Knight,Paper,Defense,Field,,Lily,Jin,Unknown
 Churyeok,Martial Artist,Scissors,Defense,Water,,Lily,Unknown,Tao
-Cleo,Succubus,Paper,Balance,Thornbush,,Carrot,Chenny,Shu-Shu
+Cleo,Succubus,Paper,Balance,Thornbush,,Carrot,Chenny,Shu Shu
 Deborah,Magician,Scissors,Area Attack,Poison,,Alfred,Lance,Klein
 Deimos,Tyrant,Scissors,Defense,Poison,,Carrot,Lily,Valkyrie
 Dolores,Nouveau Riche,Paper,Balance,Lava,,Kai,Rage,Fruel
@@ -35,12 +35,12 @@ Heuksa,Bloodlust,Rock,Balance,Poison,,Taehwa,Ryeogang,Churyeok
 Hongyeom,Vermilion Bird,Rock,Area Attack,Lava,,Mas,Lena,Sonic Boom
 Ian,Black Cat,Rock,Balance,Thornbush,,Serendi,Jin,Chenny
 Ildo,Escort,Paper,Defense,Thornbush,,Hongyeom,Ian,Taehwa
-Jack,Werewolf,Rock,Defense,Lava,,Lance,Mas,Shu-Shu
+Jack,Werewolf,Rock,Defense,Lava,,Lance,Mas,Shu Shu
 Jakyak,?????,Scissors,Support,Thornbush,Field,Ildo,Hongyeom,Sogoon
 Jenny,Cowgirl,Paper,Area Attack,Thornbush,,Carrot,Rage,Momo
 Jin,Mercenary Captain,Scissors,Attack,Lava,,Kai,Rage,Unknown
 Jin Kisaragi,Hero of Ikaruga,Scissors,Balance,Glacier,,Ragna,Noel,Rachel
-Jinyo,The Black Tortoise,Scissors,Defense,Poison,,Chenny,Shu-Shu,Carrot
+Jinyo,The Black Tortoise,Scissors,Defense,Poison,,Chenny,Shu Shu,Carrot
 Kai,Hero,Rock,Balance,Lava,,Chris,Raboff,Mu
 Khun Aguero Agnes,A.A.,Paper,Support,Glacier,Water,Twenty-Fifth Bam,Yuri Jahad,Endorsi Jahad
 Kitty,Android,Rock,Area Attack,Glacier,,Sraka,Dolores,Moa
@@ -80,13 +80,13 @@ Raizel,Noblesse,Paper,Attack,Swamp,,Frankenstein,Seira,Raskreia
 Ramlethal Valentine,Backyard's Messenger,Scissors,Area Attack,Thornbush,,Ky Kiske,Sol Badguy,May
 Raskreia,Lord,Scissors,Area Attack,Field,,Seira,Frankenstein,Nox
 Reina,Wolf Hunter,Scissors,Balance,Field,,Jin,Lily,Belle
-Ryeogang,Fortune-teller,Paper,Balance,Water,,Carrot,Chenny,Shu-Shu
+Ryeogang,Fortune-teller,Paper,Balance,Water,,Carrot,Chenny,Shu Shu
 Sehee,Phoenix Seed,Paper,Attack,Lava,,Hongyeom,Churyeok,Heuksa
 Seira,Reaper,Scissors,Attack,Glacier,,Raskreia,Frankenstein,Lily
 Serendi,Dryad,Rock,Balance,Swamp,,Ian,Moa,Momo
 Serphina,Magic Knight,Scissors,Area Attack,Water,,Mas,Fruel,Persona
 Shark,Pirate,Scissors,Balance,Water,,Deborah,Cleo,Hella
-Shu-Shu,Little Angel,Rock,Support,Water,Poison,Gillan,Alfred,Zero
+Shu Shu,Little Angel,Rock,Support,Water,Poison,Gillan,Alfred,Zero
 Sione,Black Bride,Scissors,Attack,Swamp,,Gillian,Azrael,Klein
 Sogoon,White Tiger,Scissors,Attack,Glacier,,Hongyeom,Rage,Unknown
 Sol Badguy,Bounty Hunter,Rock,Balance,Lava,,Ky Kiske,May,Ramlethal Valentine
@@ -97,12 +97,10 @@ Taehwa,Painter,Scissors,Balance,Water,,Sraka,Dolores,Krut
 Tao,Kung Fu Girl,Scissors,Attack,Thornbush,,Alfred,Lily,Unknown
 Thanatos,Dragon,Rock,Balance,Poison,,Celestial,Yekaterina,Kai
 Twenty-Fifth Bam,Irregular,Scissors,Attack,Water,,Khun Aguero Agnes,Yuri Jahad,Endorsi Jahad
-Unknown,Wanderer,Rock,Attack,Water,,Nirvana,Shu-Shu,Belle
+Unknown,Wanderer,Rock,Attack,Water,,Nirvana,Shu Shu,Belle
 Valkyrie,Soul Gear,Paper,Defense,Thornbush,,Chris,Kai,Alfred
 Woryeong,Azure Dragon,Paper,Area Attack,Water,Deep Sea,Hongyeom,Sogoon,Mas
 Yeka,Little Magician,Rock,Balance,Water,,Celestial,Yekaterina,Carrot
 Yekaterina,Magician,Rock,Area Attack,Water,,Chenny,Deborah,Klein
 Yuri Jahad,Black Snakehead,Rock,Area Attack,Lava,,Twenty-Fifth Bam,Khun Aguero Agnes,Endorsi Jahad
 Zero,Assassin,Rock,Balance,Poison,,Cleo,Momo,Sione
-,,,,,,,,
-,,,,104,,,,
