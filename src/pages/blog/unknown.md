@@ -8,7 +8,7 @@ tags:
   -  Water
 allies:
   -  Nirvana
-  -  Shu-Shu
+  -  Shu Shu
   -  Belle
 
 ---

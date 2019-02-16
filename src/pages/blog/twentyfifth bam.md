@@ -12,4 +12,4 @@ allies:
   -  Endorsi Jahad
 
 ---
-![Twenty-Fifth Bam](/img/Twenty-Fifth Bam.png)
+![Twenty-Fifth Bam](/img/Twentyfifth Bam.png)

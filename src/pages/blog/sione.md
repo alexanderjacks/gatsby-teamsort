@@ -7,7 +7,7 @@ tags:
   -  Attack
   -  Swamp
 allies:
-  -  Gillian
+  -  Gillan
   -  Azrael
   -  Klein
 

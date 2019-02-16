@@ -9,7 +9,7 @@ tags:
 allies:
   -  Lance
   -  Mas
-  -  Shu-Shu
+  -  Shu Shu
 
 ---
 ![Jack](/img/Jack.png)

@@ -9,7 +9,7 @@ tags:
 allies:
   -  Carrot
   -  Chenny
-  -  Shu-Shu
+  -  Shu Shu
 
 ---
 ![Cleo](/img/Cleo.png)

@@ -8,7 +8,7 @@ tags:
   -  Poison
 allies:
   -  Chenny
-  -  Shu-Shu
+  -  Shu Shu
   -  Carrot
 
 ---

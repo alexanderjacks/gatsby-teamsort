@@ -1,6 +1,6 @@
 ---
 templateKey: 'blog-post'
-title: Shu-Shu
+title: Shu Shu
 description: Little Angel
 tags:
   -  Rock
@@ -13,4 +13,4 @@ allies:
   -  Zero
 
 ---
-![Shu-Shu](/img/Shu-Shu.png)
+![Shu Shu](/img/Shu Shu.png)

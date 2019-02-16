@@ -9,7 +9,7 @@ tags:
 allies:
   -  Carrot
   -  Chenny
-  -  Shu-Shu
+  -  Shu Shu
 
 ---
 ![Ryeogang](/img/Ryeogang.png)
