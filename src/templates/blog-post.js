@@ -29,7 +29,7 @@ export const BlogPostTemplate = ({
                    alignItems: `center`
           }}
       >
-
+    {/* Begin hero info */}
           <div className="columns column is-12">
             <div className="column">
               {allies && allies.length ? (

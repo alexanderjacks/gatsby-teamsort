@@ -12,10 +12,15 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         <section className="section">
-          <div className="container">
+          <div className="container"
+              style={{  
+                        background: `linear-gradient(to top, black, navy, steelblue, #cdf)`,
+                  }}
+          >
             <div className="content">
               <h1 className="has-text-weight-bold is-size-2">All Fantasy War Tactics Heroes</h1>
             </div>
+            {/* blog posts function as hero info, boilerplate world */}
             {posts
               .map(({ node: post }) => (
                 <div

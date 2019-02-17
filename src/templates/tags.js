@@ -41,6 +41,7 @@ class TagRoute extends React.Component {
           </div>
           <div className="column">
             <h4 className="is-size-5">{post.node.frontmatter.description}</h4>
+            {/* injects the hero portrait image, vulnerable to certain attacks */}
             <div
               id="___gatsby"
               dangerouslySetInnerHTML={{ __html: post.node.html}}
