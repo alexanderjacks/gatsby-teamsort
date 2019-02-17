@@ -24,6 +24,7 @@ export default class IndexPage extends React.Component {
                             padding: `1.4rem`,
                             border: `1.5px grey solid`,
                             borderRadius: `1.2rem`,
+                            background: `radial-gradient(white, snow, beige)`,
                   }}
                   key={post.id}
                 >

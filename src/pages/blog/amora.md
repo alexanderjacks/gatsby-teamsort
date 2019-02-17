@@ -6,7 +6,7 @@ tags:
   -  Scissors
   -  Area Attack
   -  Water
-  -  DeepSea
+  -  Deep Sea
 allies:
   -  Carrot
   -  Sione
