@@ -22,12 +22,18 @@ export const BlogPostTemplate = ({
   return (
     <section className="section">
       {helmet || ''}
-      <div className="container content">
+      <div className="container content"
+          style={{ background: `radial-gradient(white, snow, beige)`,
+                   border: `2px lime solid`,
+                   borderRadius: `1.2rem`,
+                   alignItems: `center`
+          }}
+      >
 
           <div className="columns column is-12">
             <div className="column">
               {allies && allies.length ? (
-              <div style={{ marginTop: `4rem` }}>
+              <div style={{ marginTop: `4rem` }} >
                 <ul className="taglist columns"
                     style={{  margin: `0.4rem`,
                               border: `2px blue solid`
@@ -39,7 +45,8 @@ export const BlogPostTemplate = ({
                         style={{  margin: `0.4rem`,
                                   padding: `1rem`,
                                   border: `2px red solid`,
-                                  borderRadius: `1.1rem` }}
+                                  borderRadius: `1.1rem`
+                              }}
                     >
                       <Link 
                         to={`/blog/${lowerCase(slugify(ally, ' '))}/`}
