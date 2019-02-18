@@ -20,11 +20,16 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
+    <section className="section"
+            style={{
+                    background: `radial-gradient(darkorange, gold, papayawhip, snow, white)`,
+                    height: `100vh`,
+                  }}
+    >
       {helmet || ''}
-      <div className="container content"
+      <div className="container content is-vcentered"
           style={{ background: `radial-gradient(white, snow, beige)`,
-                   border: `2px lime solid`,
+                   border: `2px grey solid`,
                    borderRadius: `1.2rem`,
                    alignItems: `center`
           }}
@@ -45,7 +50,8 @@ export const BlogPostTemplate = ({
                         style={{  margin: `0.4rem`,
                                   padding: `1rem`,
                                   border: `2px red solid`,
-                                  borderRadius: `1.1rem`
+                                  borderRadius: `1.1rem`,
+                                  fontSize: `1.6rem`,
                               }}
                     >
                       <Link 
@@ -85,7 +91,9 @@ export const BlogPostTemplate = ({
                         style={{  margin: `0.4rem`,
                                   padding: `1rem`,
                                   border: `2px red solid`,
-                                  borderRadius: `1.1rem` }}
+                                  borderRadius: `1.1rem`,
+                                  fontSize: `1.6rem`,
+                               }}
                     >
                       <Link 
                         to={`/tags/${kebabCase(tag)}/`}

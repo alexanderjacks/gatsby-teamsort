@@ -14,7 +14,7 @@ export default class IndexPage extends React.Component {
         <section className="section">
           <div className="container"
               style={{  
-                        background: `linear-gradient(to top, black, navy, steelblue, #cdf)`,
+                        background: `linear-gradient(to top, black, navy, steelblue, snow, white)`,
                   }}
           >
             <div className="content">
@@ -29,7 +29,7 @@ export default class IndexPage extends React.Component {
                             padding: `1.4rem`,
                             border: `1.5px grey solid`,
                             borderRadius: `1.2rem`,
-                            background: `radial-gradient(white, snow, beige)`,
+                            background: `radial-gradient(white, snow, papayawhip)`,
                   }}
                   key={post.id}
                 >
@@ -41,21 +41,29 @@ export default class IndexPage extends React.Component {
                     />
                   </Link>
                   <div
-                    className="container column is-10 is-offset-1"
+                    className="container columns"
                     style={{  
                               padding: `0.6rem`,
-                              border: `2px blue solid`,
+                              border: `2px maroon solid`,
                               borderRadius: `1.1rem`
                     }}
                   >
                       {post.frontmatter.tags.map(tag => (
                         <span key={tag + `tag`}
-                            className="tile"
-                            style={{  margin: `0.4rem`,
+                            className="column 
+                            has-text-centered 
+                            is-one-third-tablet
+                            is-one-quarter-desktop"
+                            style={{  
+                                      fontSize: `2rem`,
+                                      height: `13vh`,
+                                      margin: `0.4rem`,
                                       padding: `0.4rem`,
+                                      background: `radial-gradient(51% 85%, #8DE0C6 20%, #598B88 86%)`,
+                                      border: `3px solid #7BC3B8`,
+                                      borderRadius: `1.1rem`,
                                       flex: 1,
-                                      border: `2px red solid`,
-                                      borderRadius: `1.1rem` }}
+                                  }}
                         >
                           <Link to={`/tags/${kebabCase(tag)}/`}>{`${startCase(tag)}`}</Link>
                         </span>

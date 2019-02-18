@@ -28,7 +28,9 @@ class TagRoute extends React.Component {
                     style={{  margin: `0.25rem`,
                             padding: `0.25rem`,
                             border: `1px teal solid`,
-                            borderRadius: `0.5rem` }}
+                            borderRadius: `0.5rem`,
+                            fontSize: `1.4rem`,
+                          }}
               >
                 <Link 
                   to={`/blog/${lowerCase(slugify(ally, ' '))}/`}
@@ -55,7 +57,9 @@ class TagRoute extends React.Component {
                     style={{  margin: `0.4rem`,
                             padding: `0.4rem`,
                             border: `1px indianred solid`,
-                            borderRadius: `0.8rem` }}
+                            borderRadius: `0.8rem`,
+                            fontSize: `1.4rem`,
+                          }}
               >
                 <Link 
                   to={`/tags/${kebabCase(tag)}/`}
