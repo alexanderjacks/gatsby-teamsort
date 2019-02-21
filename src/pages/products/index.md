@@ -1,56 +1,34 @@
 ---
 templateKey: 'product-page'
 path: /products
-title: Our Coffee
-image: /img/jumbotron.jpg
-heading: What we offer
+title: Quick Sorting w/ Clean Data
+image: /img/fullscreen.png
+heading: How did I build this?
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  I liked the sound of the Jamstack architecture (modern JavaScript working with text files as the data layer) so I adapted a Gatsby blog starter into this 'encyclopedia app' in order to become familiar with Jamstack (and Netlify, for continuous deployment).
+  
+  The dataset comes from a spreadsheet of character data for the game Fantasy War Tactics R (by VALOFE, see About for more). I tinkered around with an old Python scraping script until it no longer crawled a webpage but a CSV file, and then I set it to output a separate file for each record-- just like the GraphQL-powered Jamstack framework requires.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/diagram01.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
+        A spreadsheet saved to Comma Separated Values (CSV) format starts off our mock database.
+    - image: /img/diagram02.png
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
+        Python script cleans the CSV data, formatting into Markdown syntax item by item and creating a file (*.md) for the data on each line.
+    - image: /img/diagram03.png
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
+        Jamstack renders md files as a relational database thanks to the magic of GraphQL, which functions as a data schema even though we're not running a database-- the markdown are static text files, and don't require a database server.
+    - image: /img/diagram04.png
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
+        Gatsby optimizes the app's code for fastest loading on mobile and delivers the optimized build to the Netlify CD platform. The app functions the same on any device with a web browser, and mimics having a relational database even though it is a bunch of static files crafted into a PWA.
+  heading: Jamstack verdict
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    Easy to pick up and run with, text files in Markdown syntax make for a great data model. Using static files in this way saves on website hosting expenses, because no database servers are needed.
 main:
-  heading: Great coffee with no compromises
+  heading: Why did I build this?
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    Learning new techniques brings good times. I'm a front-end developer who likes to keep learning and has heard great things lately about GraphQL, Gatsby and Netlify, so this project has helped me learn some core skills in these new techs. This dataset was also used in an old project when I was learning Angular2, so seeing Jamstack build it in a very different way is super neat.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
@@ -61,41 +39,34 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 testimonials:
-  - author: Elisabeth Kaurismäki
+  - author: M Brown
     quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
-    quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
-full_image: /img/products-full-width.jpg
+      Metadata is just what it sounds like-- data about data.
+full_image: /img/opensource_jam.png
 pricing:
-  heading: Monthly subscriptions
+  heading: Jamstack ingredients
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    React is a JS library, Gatsby uses React & GraphQL. A Python script was crafted to convert the spreadsheet into multiple, Markdown-format text files; these are hosted dynamically on a Github codebase via the Netlify delivery network.
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: Progressive tooling & optimizing of React applications
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
+        - assure compatability across all browsers
+        - get a mobile experience or a desktop experience
+        - pre-build images for many device sizes
+      plan: React with Gatsby tooling
+      price: 'Gatsby'
+    - description: In-step code deployment to a global delivery network
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+        - app updates production code on Github pushes
+        - CDN fine-tuned for speedy access
+        - site encryption & other hosting quality of life built-in
+      plan: Continuous Deployment
+      price: 'Netlify'
+    - description: A data layer that's simple to read and easy to support
       items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '??'
+        - human-readable syntax
+        - lives on Github, not bundled inside codebase
+        - scripting can automate data updates 
+      plan: Transparent Data layer
+      price: 'Markdown'
 ---

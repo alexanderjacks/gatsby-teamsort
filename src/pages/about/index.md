@@ -22,3 +22,5 @@ There are five ways that heroes act:
 ### TEAMSORT helps quickly move through hero metadata
 
 # [Return to main list!🔝](/)
+
+## [Author Portfolio](https://www.alexanderjacks.info)
