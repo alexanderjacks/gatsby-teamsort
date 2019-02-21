@@ -41,7 +41,7 @@ export default class IndexPage extends React.Component {
                     />
                   </Link>
                   <div
-                    className="columns"
+                    className="container columns"
                     style={{  
                               padding: `0.6rem`,
                               border: `2px maroon solid`,
@@ -61,7 +61,7 @@ export default class IndexPage extends React.Component {
                                       padding: `0.4rem`,
                                       background: `radial-gradient(51% 85%, #8DE0C6 20%, #598B88 86%)`,
                                       border: `3px solid #7BC3B8`,
-                                      borderRadius: `1.5rem`,
+                                      borderRadius: `1.1rem`,
                                       flex: 1,
                                   }}
                         >
