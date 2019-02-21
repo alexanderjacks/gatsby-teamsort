@@ -18,7 +18,7 @@ export default class IndexPage extends React.Component {
                   }}
           >
             <div className="content">
-              <h1 className="has-text-weight-bold is-size-2">All Fantasy War Tactics Heroes</h1>
+              <h1 className="has-text-weight-bold is-size-2">♠ All Fantasy War Tactics Heroes</h1>
             </div>
             {/* blog posts function as hero info, boilerplate world */}
             {posts
