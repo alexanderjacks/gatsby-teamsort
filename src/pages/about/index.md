@@ -4,16 +4,16 @@ path: /about
 title: About this Project
 intro:
   blurbs:
-    - image: /img/diagram01.png
+    - image: /img/diagram1.png
       text: >
         A spreadsheet saved to Comma Separated Values (CSV) format starts off our mock database. Saving compute power and money with an abstracted database is cool!
-    - image: /img/diagram02.png
+    - image: /img/diagram2.png
       text: >
         Python script cleans the CSV data, formatting into Markdown syntax item by item and creating a file (*.md) for the data on each line.
-    - image: /img/diagram03.png
+    - image: /img/diagram3.png
       text: >
         Jamstack renders md files as a relational database thanks to the magic of GraphQL, which functions as a data schema even though we're not running a database-- the markdown are static text files, and don't require a database server.
-    - image: /img/diagram04.png
+    - image: /img/diagram4.png
       text: >
         Gatsby optimizes the app's code for fastest loading on mobile and delivers the optimized build to the Netlify CD platform. The app functions the same on any device with a web browser, and mimics having a relational database even though it is a bunch of static files crafted into a PWA.
 ---

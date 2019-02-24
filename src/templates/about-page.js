@@ -5,7 +5,12 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Content, { HTMLContent } from '../components/Content'
 
-export const AboutPageTemplate = ({ title, content, contentComponent, intro }) => {
+export const AboutPageTemplate = ({ 
+  title, 
+  content, 
+  contentComponent, 
+  intro 
+}) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -87,7 +92,7 @@ export const aboutPageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 480, quality: 64) {
+                fluid(maxWidth: 500, quality: 64) {
                   ...GatsbyImageSharpFluid
                 }
               }
