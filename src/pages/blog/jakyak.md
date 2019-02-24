@@ -1,7 +1,7 @@
 ---
 templateKey: 'blog-post'
 title: Jakyak
-description: ?????
+description: Rabbit Maid
 tags:
   -  Scissors
   -  Support

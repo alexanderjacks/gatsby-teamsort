@@ -1,7 +1,7 @@
 ---
 templateKey: 'blog-post'
 title: Lynn
-description: ?????
+description: Wind Master
 tags:
   -  Scissors
   -  Balance

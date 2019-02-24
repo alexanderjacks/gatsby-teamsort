@@ -38,12 +38,13 @@ export default class IndexPage extends React.Component {
                     <div
                       id="___gatsby"
                       dangerouslySetInnerHTML={{ __html: post.html}}
+                      style={{ padding: '1.1rem', }}
                     />
                   </Link>
                   <div
-                    className="container columns"
+                    className="columns"
                     style={{  
-                              padding: `0.6rem`,
+                              padding: `0.4rem`,
                               border: `2px maroon solid`,
                               borderRadius: `1.1rem`
                     }}
@@ -55,14 +56,14 @@ export default class IndexPage extends React.Component {
                             is-one-third-tablet
                             is-one-quarter-desktop"
                             style={{  
-                                      fontSize: `2rem`,
+                                      fontSize: `1.9rem`,
                                       height: `13vh`,
                                       margin: `0.4rem`,
-                                      padding: `0.4rem`,
                                       background: `radial-gradient(51% 85%, #8DE0C6 20%, #598B88 86%)`,
                                       border: `3px solid #7BC3B8`,
                                       borderRadius: `1.1rem`,
                                       flex: 1,
+                                      alignItems: `center`,
                                   }}
                         >
                           <Link to={`/tags/${kebabCase(tag)}/`}>{`${startCase(tag)}`}</Link>

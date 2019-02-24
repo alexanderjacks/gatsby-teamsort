@@ -30,6 +30,8 @@ class TagRoute extends React.Component {
                             border: `1px teal solid`,
                             borderRadius: `0.5rem`,
                             fontSize: `1.4rem`,
+                            flex: 1,
+                            alignItems: 'center',
                           }}
               >
                 <Link 
@@ -59,6 +61,8 @@ class TagRoute extends React.Component {
                             border: `1px indianred solid`,
                             borderRadius: `0.8rem`,
                             fontSize: `1.4rem`,
+                            flex: 1,
+                            alignItems: 'center',
                           }}
               >
                 <Link 
