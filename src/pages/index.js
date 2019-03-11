@@ -14,11 +14,11 @@ export default class IndexPage extends React.Component {
         <section className="section">
           <div className="container"
               style={{  
-                        background: `linear-gradient(to top, black, navy, steelblue, snow, white)`,
+                      background: `linear-gradient(to top, black, navy, steelblue, snow, white)`,
                   }}
           >
             <div className="content">
-              <h1 className="has-text-weight-bold is-size-2">♠ All Fantasy War Tactics Heroes</h1>
+              <h1 className="has-text-weight-bold is-size-2">♠ All Fantasy War Tactics Heroes ♥</h1>
             </div>
             {/* blog posts function as hero info, boilerplate world */}
             {posts
@@ -42,12 +42,12 @@ export default class IndexPage extends React.Component {
                     />
                   </Link>
                   <div
-                    className="columns"
                     style={{  
                               padding: `0.4rem`,
-                              border: `2px maroon solid`,
+                              border: `2px seagreen solid`,
                               borderRadius: `1.1rem`
                     }}
+                    className="columns"
                   >
                       {post.frontmatter.tags.map(tag => (
                         <span key={tag + `tag`}
